@@ -3,7 +3,7 @@ AFK Kicking Script For QB-Core
 
 # how to use the exports
 ```lua
-if exports['qb-afk']:InAfkZone() then
+if not exports['qb-afk']:InAfkZone() then
     --Do your code here
     print('player trying to fail rp in Afk Zone') --Example
 end
